@@ -1,0 +1,14 @@
+/*----------------------------------------------
+*
+* <!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack-->-*/
+
+/* #region Root */
+
+:root {
+    
+    --primary-color: #1E50BC;
+    --secondary-color: #1a8fe3;
+    --translucent-bg-color: rgba(30, 80, 188, 0.15);
+}
+
+/* #endregion Root */

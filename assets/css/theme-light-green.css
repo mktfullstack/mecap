@@ -1,0 +1,50 @@
+/*----------------------------------------------
+*
+* [Theme Light Green Stylesheet]
+*<!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack-->
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+    
+    --primary-color: #65FF00;
+    --secondary-color: #ceff1a;
+    --translucent-bg-color: rgba(102, 255, 0, 0.15);
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Button
+----------------------------------------------*/
+
+/* #region Button */
+
+.primary-button:hover, .primary-button:focus, .primary-button:hover:after, .primary-button:focus:after {
+    content: none;
+    background-image: none;
+}
+
+.primary-button:hover:before, .primary-button:focus:before {
+    content: none;
+}
+
+/* #endregion Button */
+
+/*----------------------------------------------
+3. Feature
+----------------------------------------------*/
+
+/* #region Feature */
+
+.card:not(.no-hover):hover {
+    background-image: none;
+    background-color: #65FF00;
+}
+
+/* #endregion Feature */

@@ -1,0 +1,28 @@
+/*----------------------------------------------
+*
+* [<!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack-->----------------------*/
+
+/* #region Root */
+
+:root {
+
+    --h1-font: 'Gilroy', sans-serif;
+    --h1-size: 6rem;
+    --h1-weight: 900;
+    --h1-line-height: 1.2;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Slider
+----------------------------------------------*/
+
+/* #region Slider */
+
+.slider-full .inner .left:before,
+.slider-full .inner .left:after {
+    content: none;
+}
+
+/* #endregion Slider */

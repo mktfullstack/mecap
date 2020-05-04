@@ -1,0 +1,62 @@
+/*----------------------------------------------
+*
+* [Theme Formal Stylesheet]
+*<!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack-->-*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+
+    --h1-font: 'Gilroy', sans-serif;
+    --h1-size: 6rem;
+    --h1-weight: 900;
+    --h1-line-height: 1.2;
+    
+    --header-bg-color: #191919;
+    --nav-item-color: #f5f5f5;
+    
+    --filter-logo: invert(1);
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Effect
+----------------------------------------------*/
+
+/* #region Effect */
+
+.effect-motion-text,
+.effect-motion-hover:hover {
+    -webkit-text-fill-color: var(--primary-color);
+}
+
+/* #endregion Effect */
+
+/*----------------------------------------------
+3. Section
+----------------------------------------------*/
+
+/* #region Section */
+
+
+
+/* #endregion Section */
+
+/*----------------------------------------------
+4. Slider
+----------------------------------------------*/
+
+/* #region Slider */
+
+.slider-full .slide-content .description,
+.slider-disabled .slide-content .description {
+    max-width: 900px;
+    font-size: 1.5rem;
+}
+
+/* #endregion Slider */
